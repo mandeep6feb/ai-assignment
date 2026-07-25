@@ -1,16 +1,29 @@
 import numpy as np
+
+
 marks = np.array([
     [80, 70, 90],
     [60, 75, 65],
     [90, 85, 95],
     [50, 60, 55]
 ])
+
 print("Student Marks:")
 print(marks)
+
+# Average
 print("Average:", np.mean(marks))
+
+# Highest Score
 print("Highest Score:", np.max(marks))
+
+# Lowest Score
 print("Lowest Score:", np.min(marks))
-print("Subject Average:", np.mean(marks, axis=0))
+
+# Subject-wise Average
+print("Subject-wise Average:", np.mean(marks, axis=0))
+
+# Overall Performance
 average = np.mean(marks)
 
 if average >= 75:
