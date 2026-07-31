@@ -1,0 +1,7 @@
+Process,Before,After
+Missing Values,2,0
+Duplicates,0,0
+String Cleaning,Done,Done
+Data Type Conversion,Checked,Completed
+Outliers Removed,1,Removed
+Normalization,Done,Done
